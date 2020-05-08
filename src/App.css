@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
+.header-color {
+  background: #4ca1af; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #c4e0e5,
+    #4ca1af
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #c4e0e5,
+    #4ca1af
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.landing-grid {
+  background: #4ca1af; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #c4e0e5,
+    #4ca1af
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #c4e0e5,
+    #4ca1af
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /*text-align: center; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mypic-img {
+  height: 250px;
+  padding-top: 5em;
+  padding-bottom: 3em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.banner-text h1 {
+  padding-top: 1em;
+  font-size: 66px;
   color: white;
+  font-family: Optima, sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.banner-text p {
+  font-size: 20px;
+  color: white;
+  padding: 0.5em;
+  font-family: Optima, sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
+
+.social-links i {
+  color: white;
+  font-size: 3em;
+  padding: 8px;
+}
+
+.aboutme-grid {
+  background: #4ca1af; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #c4e0e5,
+    #4ca1af
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #c4e0e5,
+    #4ca1af
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /*text-align: center; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  */
+}
+
+.build18pic-img {
+  height: 300px;
+  padding-top: 5em;
+
+  padding-left: 3em;
+}
+
+.aboutme-text p {
+  font-size: 24px;
+  color: white;
+  /*padding: 3em;*/
+  font-family: Optima, sans-serif;
+  line-height: 125%;
+  padding-left: 3em;
+}
+
+.aboutme-text h1 {
+  /*padding-top: 1em;*/
+  font-size: 66px;
+  color: white;
+  font-family: Optima, sans-serif;
 }
