@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
+import build18 from "./build18.jpg";
 
 class About extends Component {
   render() {
@@ -7,11 +8,7 @@ class About extends Component {
       <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="aboutme-grid">
           <Cell col={4}>
-            <img
-              src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/96697593_3759070107501781_5984754515696418816_o.jpg?_nc_cat=105&_nc_sid=8024bb&_nc_ohc=kuZaE7pJG8QAX9vug1D&_nc_ht=scontent-iad3-1.xx&oh=86099032f0d56d32b0812a9f93fe197c&oe=5EDAF8C4"
-              alt="build18pic"
-              className="build18pic-img"
-            />
+            <img src={build18} alt="build18pic" className="build18pic-img" />
           </Cell>
 
           <Cell col={6}>

@@ -7,9 +7,10 @@ import {
   CardText,
   Button,
   CardActions,
-  CardMenu,
-  IconButton
+  CardMenu
 } from "react-mdl";
+import gtownpic from "./gtownpic.jpg";
+
 // uigradients
 
 class Landing extends Component {
@@ -17,15 +18,11 @@ class Landing extends Component {
     return (
       <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="landing-grid">
-          <Cell col={4}>
-            <img
-              src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/95961247_3759069204168538_926529659561050112_o.jpg?_nc_cat=105&_nc_sid=8024bb&_nc_ohc=cytcw8x-jcgAX-oDJ_N&_nc_ht=scontent-iad3-1.xx&oh=74781c331fae9574355e5098fdcded3f&oe=5ED9F5E8"
-              alt="mypic"
-              className="mypic-img"
-            />
+          <Cell col={6}>
+            <img src={gtownpic} alt="mypic" className="mypic-img" />
           </Cell>
 
-          <Cell col={4}>
+          <Cell col={6}>
             <div className="banner-text">
               <h1>Rita Zhang</h1>
               <p>Hi, I'm Rita and these are my projects.</p>
@@ -58,30 +55,34 @@ class Landing extends Component {
         >
           <CardTitle
             style={{
+              fontFamily: "Optima",
               color: "#fff",
               height: "176px",
               background:
-                "url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover"
+                "url(https://miro.medium.com/max/3200/1*c0FaLqy4tcO1uuYLP8AWBw.jpeg) center / cover"
             }}
           >
-            Welcome
+            Spotify Ultimate Playlist Project
           </CardTitle>
           <CardText>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-            sagittis pellentesque lacus eleifend lacinia...
+            using two user's spotify playlists and saved songs, this project
+            will create an ultimate playlist with songs from both of their music
+            libraries.
           </CardText>
           <CardActions border>
-            <Button colored>Get Started</Button>
+            <a href="/spotifyproject">DEMO</a>
+            {/*
+            <Button colored onclick="window.location.href = '/aboutme'">
+              Demo
+            </Button>*/}
           </CardActions>
-          <CardMenu style={{ color: "#fff" }}>
-            <IconButton name="share" />
-          </CardMenu>
+          <CardMenu style={{ color: "#fff" }}></CardMenu>
         </Card>
 
         <Card
           className="otherProject-card"
           shadow={0}
-          style={{ width: "512px", margin: "auto" }}
+          style={{ width: "512px", margin: "auto", marginBottom: "100px" }}
         >
           <CardTitle
             style={{
@@ -93,16 +94,13 @@ class Landing extends Component {
           >
             Welcome
           </CardTitle>
-          <CardText>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-            sagittis pellentesque lacus eleifend lacinia...
-          </CardText>
+          <CardText>nothing to see here...</CardText>
           <CardActions border>
-            <Button colored>Get Started</Button>
+            <Button colored fontFamily="optima">
+              Get Started
+            </Button>
           </CardActions>
-          <CardMenu style={{ color: "#fff" }}>
-            <IconButton name="share" />
-          </CardMenu>
+          <CardMenu style={{ color: "#fff" }}></CardMenu>
         </Card>
       </div>
     );

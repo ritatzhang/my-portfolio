@@ -28,7 +28,7 @@
   /*text-align: center; 
   position: absoulte;
   height: 100%;*/
-  position: fixed;
+  position: default;
   top: 0;
   left: 0;
   width: 100%;
@@ -36,12 +36,12 @@
 
 .mypic-img {
   height: 250px;
-  padding-top: 5em;
+  padding-top: 2.5em;
   padding-bottom: 3em;
+  padding-left: 17em;
 }
 
 .banner-text h1 {
-  padding-top: 1em;
   font-size: 66px;
   color: white;
   font-family: Optima, sans-serif;
@@ -111,9 +111,68 @@
 }
 
 .spotifyProject-card {
-  transform: translateY(125%);
+  transform: translateY(25%);
 }
 
 .otherProject-card {
-  transform: translateY(125%);
+  transform: translateY(50%);
+}
+
+.spotifyproject-grid {
+  background: #4ca1af; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #c4e0e5,
+    #4ca1af
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #c4e0e5,
+    #4ca1af
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /*text-align: center; 
+  position: absoulte;
+  height: 100%;*/
+  position: default;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.spotifyplaylist-img {
+  height: 400px;
+  padding-top: 2.5em;
+}
+
+.spotifyproject-text h1 {
+  font-size: 66px;
+  color: white;
+  font-family: Optima, sans-serif;
+}
+
+.spotifyproject-text p {
+  font-size: 20px;
+  color: white;
+  padding: 0.5em;
+  font-family: Optima, sans-serif;
+}
+
+.spotifyproject-links {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
+
+.spotifyproject-links i {
+  color: white;
+  font-size: 3em;
+  padding: 8px;
+}
+
+.spotifyproject-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
 }

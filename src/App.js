@@ -18,6 +18,9 @@ class App extends Component {
             style={{ fontFamily: "Optima", fontWeight: "bold" }}
           >
             <Navigation>
+              <Link to="/">Home</Link>
+            </Navigation>
+            <Navigation>
               <Link to="/aboutme">About Me</Link>
             </Navigation>
           </Header>
