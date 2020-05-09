@@ -1,5 +1,15 @@
 import React, { Component } from "react";
-import { Grid, Cell } from "react-mdl";
+import {
+  Grid,
+  Cell,
+  Card,
+  CardTitle,
+  CardText,
+  Button,
+  CardActions,
+  CardMenu,
+  IconButton
+} from "react-mdl";
 // uigradients
 
 class Landing extends Component {
@@ -9,7 +19,7 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={4}>
             <img
-              src="https://lh3.googleusercontent.com/UCr69wFOkbzV4J-uaWqd_MB8daSJhc-oioTtGaGgfGxkNTgBWWoGVCTJ3t_ybl3DXHUt8HQ7JCuACn9CLWTLLIC5tAIEUVWqNjTaH_oaFpYl5aZwAp1gBJdEtGa1x-lpCRKykUvSsMv0qtvzOeqKMZ9O6eWwlJTaD64ZMcuBeek6qKSZrVAKsXguhKBfjDQUBYXTUJC1AGHBQe3NDdmzr6Of-UWodeNDeizew2PkqeWv06mEZYcRFxynz0EUYYulUqi6qOhjimEqJo8jEF1nuXTC35ZXEIHBFUppWKxYSvdRiKqdpxiC_jY8QKK3IjPjsSxBQPGF7JlqDNmtDaV3eZrnJy8wHLAiK4apXjRMB1yZDbuXCXXcRsGmha63-4G2zk5AXWVM8-66dJvOJ1nQRy_EseQNs4XBJ2NLeTelMg4Rsz7kD6IfpRuSjJi5xQqhRHZ4il8W5uSC4PsXGVPoAztC2qJ_TLWCVrWD45S_EwcDdwqk39oKj_8R2VdctV4YO3BRyj45pdGLQaZTHzFh_CLvp3zjX4agDTwzzXxO6CJS90w7NtaCwXJ_RFHp8oL5TtLlFU9XJP-NeZ53v-1hg6e-siTSzBsdQwBZOScXUGZ8OaHlSuNGkG-rOTmvqwey6aGLra3pMuPJoTN6M4ff39yWrwL0sbwoXF29XEthx2fD5GxlJPbve_WfBYkMiA=w2048-h1365-no?authuser=0"
+              src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/95961247_3759069204168538_926529659561050112_o.jpg?_nc_cat=105&_nc_sid=8024bb&_nc_ohc=cytcw8x-jcgAX-oDJ_N&_nc_ht=scontent-iad3-1.xx&oh=74781c331fae9574355e5098fdcded3f&oe=5ED9F5E8"
               alt="mypic"
               className="mypic-img"
             />
@@ -41,6 +51,59 @@ class Landing extends Component {
             </div>
           </Cell>
         </Grid>
+        <Card
+          className="spotifyProject-card"
+          shadow={0}
+          style={{ width: "512px", margin: "auto" }}
+        >
+          <CardTitle
+            style={{
+              color: "#fff",
+              height: "176px",
+              background:
+                "url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover"
+            }}
+          >
+            Welcome
+          </CardTitle>
+          <CardText>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+            sagittis pellentesque lacus eleifend lacinia...
+          </CardText>
+          <CardActions border>
+            <Button colored>Get Started</Button>
+          </CardActions>
+          <CardMenu style={{ color: "#fff" }}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
+
+        <Card
+          className="otherProject-card"
+          shadow={0}
+          style={{ width: "512px", margin: "auto" }}
+        >
+          <CardTitle
+            style={{
+              color: "#fff",
+              height: "176px",
+              background:
+                "url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover"
+            }}
+          >
+            Welcome
+          </CardTitle>
+          <CardText>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+            sagittis pellentesque lacus eleifend lacinia...
+          </CardText>
+          <CardActions border>
+            <Button colored>Get Started</Button>
+          </CardActions>
+          <CardMenu style={{ color: "#fff" }}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
       </div>
     );
   }

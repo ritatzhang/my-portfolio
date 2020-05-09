@@ -8,7 +8,7 @@ class About extends Component {
         <Grid className="aboutme-grid">
           <Cell col={4}>
             <img
-              src="https://lh3.googleusercontent.com/Dv1N7sbaEMn3mo-5QourXFJevdrZMfkwJI3XUDGDEzFisVGBULATr9uYKn30F7ocf1ABV8mNPeZZ5HP6Uv3470MnLUnuUAZ10i-yZiVWCuB5SxmkXOmtRGxuJmq3bXWAvxpqsO5dPs5rDXQjgMr9vW8ssEy5vvfxH1G-SQu5-1FwhrEqvnVcMQFhB1Ivjie8ge9QBEZIa0QsklNstlvzXZ8VtHbepwnyj4iv8bOmC9H4_vV2O8cylwecMNpf4RYzfOPfX8aA6cQbE-QbGlav90nPNIrd3sLGu72gDNuZyPrVB1lXfDJfrz5jZZqVNxi6qiveo7gXNXjJe9dbNzpkyNFCF8mtrYXY6p7xg6I0xBtHtQHL-ldhn6k9mPN3r8mN2OxCHs_i6XoopLY1l4O2o9JFobQhiyDuu_AtVJnwH7QATbfT5UPaQUpj9mYvoLK89kYPORAIzNpCzcTHphJ9IBPxG68D_Nf9npLYDoDy5LbLR5UqdUUISrJOTAboeviHJf_VmkSS-72Qsjs0JaBPY_mNAeDRyfZqfzMPioHnUX6dj8hBuRXLlE000JkPJeM4ue3fT0RXQJ2s-ZtANK6INmvt-6U_YAWjpzOtxNoOg44tIbcU6Q9UeCyknr4QJOJVLSpHvObsyevVb9PyRp30ENbhkpqSjS80QfcrTBYKcjLVAh6YecCAtla9hxeCHoE=w2156-h1436-no?authuser=0"
+              src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/96697593_3759070107501781_5984754515696418816_o.jpg?_nc_cat=105&_nc_sid=8024bb&_nc_ohc=kuZaE7pJG8QAX9vug1D&_nc_ht=scontent-iad3-1.xx&oh=86099032f0d56d32b0812a9f93fe197c&oe=5EDAF8C4"
               alt="build18pic"
               className="build18pic-img"
             />
