@@ -1,14 +1,5 @@
 import React, { Component } from "react";
-import {
-  Grid,
-  Cell,
-  Card,
-  CardTitle,
-  CardText,
-  Button,
-  CardActions,
-  CardMenu
-} from "react-mdl";
+import { Grid, Cell, Button } from "react-mdl";
 import spotifyplaylist from "./spotifyplaylist.jpg";
 
 class SpotifyProject extends Component {
@@ -20,13 +11,14 @@ class SpotifyProject extends Component {
             <div className="spotifyproject-text">
               <h1>Spotify Ultimate Playlist Project</h1>
               <p>
-                using spotify's authorization window, this program will connect
-                to you and a friend's spotify accounts to find shared songs and
-                make the playlist. the end result is a collaborative playlist
-                made on the first user's account and followed by the second
-                user's account. i used python and spotipy, a python library for
-                spotify, to complete this project. all code is documented on
-                github.
+                also known as, ultimatify (does this name work? feedback is very
+                appreciated). using spotify's authorization window, this program
+                will connect to you and a friend's spotify accounts to find
+                shared songs and make the playlist. the end result is a
+                collaborative playlist made on the first user's account and
+                followed by the second user's account. i used python, flask, and
+                spotipy, a python library for spotify, to complete this project.
+                all code is documented on github.
               </p>
               <div className="spotifyproject-links">
                 {/* github */}
@@ -51,9 +43,15 @@ class SpotifyProject extends Component {
         </Grid>
 
         <div class="spotifyproject-btn">
-          <Button raised accent ripple>
-            Create Playlist
-          </Button>
+          <a
+            href="http://spotify-ultimate-playlist.herokuapp.com/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <Button raised accent ripple>
+              Create Playlist
+            </Button>
+          </a>
         </div>
       </div>
     );

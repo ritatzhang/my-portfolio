@@ -44,14 +44,27 @@
 .banner-text h1 {
   font-size: 66px;
   color: white;
-  font-family: Optima, sans-serif;
+  /*font-family: Optima, sans-serif;*/
+  font-family: "Montserrat", sans-serif;
 }
 
 .banner-text p {
+  overflow: hidden;
+  white-space: nowrap; /* Keeps the content on a single line */
   font-size: 20px;
   color: white;
   padding: 0.5em;
-  font-family: Optima, sans-serif;
+  font-family: "Montserrat", sans-serif;
+  animation: animated-text 3s steps(29, end) 1s 1 normal both;
+}
+
+@keyframes animated-text {
+  from {
+    width: 0;
+  }
+  to {
+    width: 400px;
+  }
 }
 
 .social-links {
@@ -98,7 +111,7 @@
   font-size: 24px;
   color: white;
   /*padding: 3em;*/
-  font-family: Optima, sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 125%;
   padding-left: 3em;
 }
@@ -107,7 +120,7 @@
   /*padding-top: 1em;*/
   font-size: 66px;
   color: white;
-  font-family: Optima, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .spotifyProject-card {
@@ -148,14 +161,14 @@
 .spotifyproject-text h1 {
   font-size: 66px;
   color: white;
-  font-family: Optima, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .spotifyproject-text p {
   font-size: 20px;
   color: white;
   padding: 0.5em;
-  font-family: Optima, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .spotifyproject-links {
