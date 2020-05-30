@@ -31,7 +31,7 @@ class About extends Component {
         </Grid>
 
         <div>
-          <h2 className="campusLife-header">Life on Campus</h2>
+          <h2 className="campusLife-header">Doing Things!</h2>
           <hr />
           <h3 className="hack-h">Hackathons!</h3>
           <img alt="" className="littlewomen-pic" src={littlewomen} />
