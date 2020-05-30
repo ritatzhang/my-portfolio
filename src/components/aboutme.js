@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import build18 from "./build18.jpg";
-
+import littlewomen from "./littlewomen.jpg";
+import thacks from "./IMG_9621.JPG";
+import swim from "./IMG_1274.jpg";
 class About extends Component {
   render() {
     return (
@@ -27,6 +29,29 @@ class About extends Component {
             </div>
           </Cell>
         </Grid>
+
+        <div>
+          <h2 className="campusLife-header">Life on Campus</h2>
+          <hr />
+          <h3 className="hack-h">Hackathons!</h3>
+          <img alt="" className="littlewomen-pic" src={littlewomen} />
+
+          <hr />
+          <h3 className="scabs-h">ScottyLabs</h3>
+          <img alt="" className="thacks-pic" src={thacks} />
+
+          <hr />
+          <h3 className="swim-h">Club Swim</h3>
+          <img alt="" className="swim-pic" src={swim} />
+
+          <hr />
+          <h2 className="interests-header">Interests</h2>
+          <p className="interests">
+            I enjoy Robinhood Snacks Daily, cereal and milk, the movie the Blind
+            Side, and listening to music.
+          </p>
+          <hr />
+        </div>
       </div>
     );
   }

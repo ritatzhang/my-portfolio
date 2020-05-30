@@ -105,7 +105,6 @@
 .build18pic-img {
   height: 300px;
   padding-top: 5em;
-
   padding-left: 3em;
 }
 
@@ -123,6 +122,88 @@
   font-size: 66px;
   color: white;
   font-family: "Montserrat", sans-serif;
+}
+
+.campusLife-header {
+  /*padding-top: 1em;*/
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em;
+  font-size: 40px;
+  color: #2f363d;
+  font-family: "Montserrat", sans-serif;
+}
+
+.interests-header {
+  /*padding-top: 1em;*/
+  margin-left: auto;
+  margin-right: auto;
+  width: 5em;
+  font-size: 40px;
+  color: #2f363d;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hack-h,
+.scabs-h,
+.swim-h {
+  padding-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 7em;
+  font-size: 30px;
+  color: #4b5866;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hack-p {
+  font-size: 24px;
+  color: #4b5866;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 3em;
+}
+.interests {
+  font-size: 24px;
+  color: #4b5866;
+  font-family: "Montserrat", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50em;
+}
+.scabs-p {
+  font-size: 24px;
+  color: #4b5866;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 2em;
+  text-align: "right";
+  width: 100%;
+  display: block;
+}
+
+.littlewomen-pic,
+.swim-pic,
+.thacks-pic {
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  display: block;
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(87, 87, 87, 0.527),
+    rgba(0, 0, 0, 0)
+  );
 }
 
 .spotifyProject-card {
