@@ -94,10 +94,12 @@
 
   /*text-align: center; 
   position: fixed;
+
+  */
+  position: default;
   top: 0;
   left: 0;
   width: 100%;
-  */
 }
 
 .build18pic-img {
