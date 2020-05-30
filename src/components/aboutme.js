@@ -31,21 +31,26 @@ class About extends Component {
         </Grid>
 
         <div>
-          <h2 className="campusLife-header">Doing Things!</h2>
+          <h2 className="campusLife-header">my campus life!</h2>
           <hr />
-          <h3 className="hack-h">Hackathons!</h3>
+          <h3 className="hack-h">hackathons!</h3>
           <img alt="" className="littlewomen-pic" src={littlewomen} />
+          <small>cover photo for my hackathon team, the Little Women</small>
 
           <hr />
           <h3 className="scabs-h">ScottyLabs</h3>
           <img alt="" className="thacks-pic" src={thacks} />
+          <small>
+            shot by me at TartanHacks 2020; I was a photographer for the event
+          </small>
 
           <hr />
-          <h3 className="swim-h">Club Swim</h3>
+          <h3 className="swim-h">club swim</h3>
           <img alt="" className="swim-pic" src={swim} />
+          <small>states high school swim meet</small>
 
           <hr />
-          <h2 className="interests-header">Interests</h2>
+          <h2 className="interests-header">✨ other interests ✨</h2>
           <p className="interests">
             I enjoy Robinhood Snacks Daily, cereal and milk, the movie the Blind
             Side, and listening to music.

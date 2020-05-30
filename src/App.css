@@ -138,7 +138,7 @@
   /*padding-top: 1em;*/
   margin-left: auto;
   margin-right: auto;
-  width: 5em;
+  width: 10em;
   font-size: 40px;
   color: #2f363d;
   font-family: "Montserrat", sans-serif;
@@ -150,7 +150,7 @@
   padding-top: 1em;
   margin-left: auto;
   margin-right: auto;
-  width: 7em;
+  width: 6em;
   font-size: 30px;
   color: #4b5866;
   font-family: "Montserrat", sans-serif;
@@ -185,6 +185,16 @@
 .thacks-pic {
   height: 400px;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+small {
+  font-family: "Montserrat", sans-serif;
+  color: #4b5866;
+  font-style: italic;
+  display: block;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
