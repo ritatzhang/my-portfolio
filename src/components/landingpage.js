@@ -51,7 +51,7 @@ class Landing extends Component {
         <Card
           className="spotifyProject-card"
           shadow={0}
-          style={{ width: "512px", margin: "auto", fontFamily: "Oxygen" }}
+          style={{ width: "512px", margin: "auto", fontFamily: "poppins" }}
         >
           <CardTitle
             style={{
@@ -86,7 +86,7 @@ class Landing extends Component {
             width: "512px",
             margin: "auto",
             marginBottom: "100px",
-            fontFamily: "Oxygen"
+            fontFamily: "poppins"
           }}
         >
           <CardTitle
