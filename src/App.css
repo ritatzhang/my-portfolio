@@ -44,8 +44,12 @@
 .banner-text h1 {
   font-size: 66px;
   color: white;
-  /*font-family: Optima, sans-serif;*/
-  font-family: "Montserrat", sans-serif;
+  /*
+  font-family: poppins, sans-serif;
+  https://fonts.adobe.com/fonts/poppins
+  */
+
+  font-family: poppins, sans-serif;
 }
 
 .banner-text p {
@@ -54,7 +58,7 @@
   font-size: 20px;
   color: white;
   padding: 0.5em;
-  font-family: "Montserrat", sans-serif;
+  font-family: oxygen, sans-serif;
   animation: animated-text 3s steps(29, end) 1s 1 normal both;
 }
 
@@ -112,7 +116,7 @@
   font-size: 24px;
   color: white;
   /*padding: 3em;*/
-  font-family: "Montserrat", sans-serif;
+  font-family: "oxygen", sans-serif;
   line-height: 125%;
   padding-left: 3em;
 }
@@ -121,7 +125,7 @@
   /*padding-top: 1em;*/
   font-size: 66px;
   color: white;
-  font-family: "Montserrat", sans-serif;
+  font-family: "oxygen", sans-serif;
 }
 
 .campusLife-header {
@@ -131,7 +135,7 @@
   width: 8em;
   font-size: 40px;
   color: #2f363d;
-  font-family: "Montserrat", sans-serif;
+  font-family: "oxygen", sans-serif;
 }
 
 .interests-header {
@@ -141,7 +145,7 @@
   width: 10em;
   font-size: 40px;
   color: #2f363d;
-  font-family: "Montserrat", sans-serif;
+  font-family: "oxygen", sans-serif;
 }
 
 .hack-h,
@@ -153,19 +157,19 @@
   width: 6em;
   font-size: 30px;
   color: #4b5866;
-  font-family: "Montserrat", sans-serif;
+  font-family: "oxygen", sans-serif;
 }
 
 .hack-p {
   font-size: 24px;
   color: #4b5866;
-  font-family: "Montserrat", sans-serif;
+  font-family: "oxygen", sans-serif;
   padding-top: 3em;
 }
 .interests {
   font-size: 24px;
   color: #4b5866;
-  font-family: "Montserrat", sans-serif;
+  font-family: "oxygen", sans-serif;
   margin-left: auto;
   margin-right: auto;
   width: 50em;
@@ -173,7 +177,7 @@
 .scabs-p {
   font-size: 24px;
   color: #4b5866;
-  font-family: "Montserrat", sans-serif;
+  font-family: "oxygen", sans-serif;
   padding-top: 2em;
   text-align: "right";
   width: 100%;
@@ -190,7 +194,7 @@
 }
 
 small {
-  font-family: "Montserrat", sans-serif;
+  font-family: "oxygen", sans-serif;
   color: #4b5866;
   font-style: italic;
   display: block;
@@ -254,14 +258,14 @@ hr {
 .spotifyproject-text h1 {
   font-size: 66px;
   color: white;
-  font-family: "Montserrat", sans-serif;
+  font-family: "oxygen", sans-serif;
 }
 
 .spotifyproject-text p {
   font-size: 20px;
   color: white;
   padding: 0.5em;
-  font-family: "Montserrat", sans-serif;
+  font-family: "oxygen", sans-serif;
 }
 
 .spotifyproject-links {

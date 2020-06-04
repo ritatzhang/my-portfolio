@@ -16,7 +16,7 @@ class App extends Component {
             scroll
             title=" "
             Text
-            style={{ fontFamily: "Montserrat", fontWeight: "bold" }}
+            style={{ fontFamily: "Oxygen", fontWeight: "bold" }}
           >
             <Navigation>
               <Link to="/">Home</Link>
