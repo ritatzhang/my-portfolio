@@ -267,6 +267,7 @@ hr {
   color: white;
   padding: 0.5em;
   font-family: "poppins", sans-serif;
+  overflow-wrap: break-word;
 }
 
 .spotifyproject-links {
@@ -286,4 +287,23 @@ hr {
   justify-content: center;
   align-items: center;
   height: 200px;
+}
+
+@media (max-width: 700px) {
+  .spotifyproject-text h1 {
+    font-size: 40px;
+  }
+  .aboutme-text p {
+    padding-left: 0em;
+  }
+  .banner-text p {
+    font-size: 18px;
+  }
+  .mypic-img,
+  .build18pic-img,
+  .spotifyplaylist-img {
+    height: 220px;
+    padding-bottom: 2em;
+    padding-left: 0em;
+  }
 }
