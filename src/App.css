@@ -301,7 +301,10 @@ hr {
   }
   .mypic-img,
   .build18pic-img,
-  .spotifyplaylist-img {
+  .spotifyplaylist-img,
+  .littlewomen-pic,
+  .swim-pic,
+  .thacks-pic {
     height: 220px;
     padding-bottom: 2em;
     padding-left: 0em;
