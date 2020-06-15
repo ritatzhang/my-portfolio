@@ -11,8 +11,8 @@ class SpotifyProject extends Component {
             <div className="spotifyproject-text">
               <h1>Spotify Ultimate Playlist Project</h1>
               <p>
-                also known as, ultimatify (does this name work? feedback is very
-                appreciated). using spotify's authorization window, this program
+                also known as, ultimatify (does this name work? feedback is
+                welcome!). using spotify's authorization window, this program
                 will connect to you and a friend's spotify accounts to find
                 shared songs and make the playlist. the end result is a
                 collaborative playlist made on the first user's account and
