@@ -11,7 +11,8 @@
     "react-mdl": "^2.1.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
-    "spotify-web-api-js": "^1.4.0"
+    "spotify-web-api-js": "^1.4.0",
+    "websocket-extensions": "^0.1.4"
   },
   "proxy": "http://localhost:5000/",
   "scripts": {

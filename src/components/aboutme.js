@@ -31,7 +31,7 @@ class About extends Component {
         </Grid>
 
         <div>
-          <h2 className="campusLife-header">my campus life!</h2>
+          <h2 className="campusLife-header">campus life!</h2>
           <hr />
           <h3 className="hack-h">hackathons!</h3>
           <img alt="" className="littlewomen-pic" src={littlewomen} />
@@ -50,7 +50,15 @@ class About extends Component {
           <small>states high school swim meet</small>
 
           <hr />
-          <h2 className="interests-header">✨ other interests ✨</h2>
+          <h2 className="interests-header">
+            <span role="img" aria-label="sparkles">
+              ✨
+            </span>{" "}
+            other interests{" "}
+            <span role="img" aria-label="sparkles">
+              ✨
+            </span>{" "}
+          </h2>
           <p className="interests">
             I enjoy Robinhood Snacks Daily, cereal and milk, the movie the Blind
             Side, and listening to music.
