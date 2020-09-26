@@ -22,7 +22,7 @@ class About extends Component {
               <h1>Hi, I'm Rita.</h1>
               <p>
                 I am currently pursuing a bachelor's degree at Carnegie Mellon
-                University with a projected graudation date of May 2022.
+                University with a projected graduation date of May 2022.
                 Sometimes, I think of ideas that I think would be cool, and then
                 I try to code it. This is the culmination of my efforts. Not
                 everything is perfect but I try my best! I am the human

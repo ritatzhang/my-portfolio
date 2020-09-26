@@ -16,7 +16,7 @@ class Landing extends Component {
 
           <Grid.Column>
             <Grid.Row className="first-row">
-              <h1>Rita Zhang</h1>
+              <h1>Rita Zhang 张瑞铜</h1>
             </Grid.Row>
             <Grid.Row>
               <p class="pre-animation">
