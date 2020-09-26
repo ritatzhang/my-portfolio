@@ -1,28 +1,41 @@
 .header-color {
-  background: #4ca1af; /* fallback for old browsers */
+  /*
+  background: #4ca1af; 
   background: -webkit-linear-gradient(
     to right,
     #c4e0e5,
     #4ca1af
-  ); /* Chrome 10-25, Safari 5.1-6 */
+  ); 
   background: linear-gradient(
     to right,
     #c4e0e5,
     #4ca1af
+  ); 
+  */
+  background: #b993d6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #8ca6db,
+    #b993d6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #8ca6db,
+    #b993d6
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.landing-grid {
-  background: #4ca1af; /* fallback for old browsers */
+.intro-grid {
+  background: #b993d6; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #c4e0e5,
-    #4ca1af
+    #8ca6db,
+    #b993d6
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #c4e0e5,
-    #4ca1af
+    #8ca6db,
+    #b993d6
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   /*text-align: center; 
@@ -35,41 +48,46 @@
 }
 
 .mypic-img {
-  height: 250px;
+  height: 350px;
   padding-top: 2.5em;
   padding-bottom: 3em;
   padding-left: 17em;
 }
 
-.banner-text h1 {
+.first-row {
+  margin-top: 100px;
+}
+
+.intro-grid h1 {
   font-size: 66px;
   color: white;
   /*
-  questrial https://fonts.google.com/specimen/Questrial?selection.family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&preview.text=Rita+Zhang&preview.text_type=custom&sidebar.open#standard-styles
-  didact gothic https://fonts.google.com/specimen/Didact+Gothic?selection.family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&preview.text=Rita+Zhang&preview.text_type=custom&sidebar.open#standard-styles
+  questrial 
+  didact gothic
   
   */
 
   font-family: "poppins", sans-serif;
 }
 
-.banner-text p {
-  overflow: hidden;
-  white-space: nowrap; /* Keeps the content on a single line */
+.intro-grid p {
   font-size: 20px;
   color: white;
   padding: 0.5em;
   font-family: "poppins", sans-serif;
-  animation: animated-text 3s steps(29, end) 1s 1 normal both;
+  /*animation: animated-text 3s steps(29, end) 1s 1 normal both;*/
 }
 
-@keyframes animated-text {
-  from {
-    width: 0;
-  }
-  to {
-    width: 400px;
-  }
+.text-wrapper {
+  text-align: center;
+  max-width: 100%;
+}
+
+.text {
+  font-size: 20px;
+  color: #8ca6db;
+  padding: 0.5em;
+  font-family: "poppins", sans-serif;
 }
 
 .social-links {
@@ -84,27 +102,13 @@
   padding: 8px;
 }
 
-.aboutme-grid {
-  background: #4ca1af; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #c4e0e5,
-    #4ca1af
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #c4e0e5,
-    #4ca1af
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.projects {
+  margin-top: 100px !important;
+  margin-bottom: 60px !important;
+}
 
-  /*text-align: center; 
-  position: fixed;
-
-  */
-  position: default;
-  top: 0;
-  left: 0;
-  width: 100%;
+.projects .card {
+  min-width: 85%;
 }
 
 .build18pic-img {
@@ -141,6 +145,7 @@
 
 .interests-header {
   /*padding-top: 1em;*/
+  padding-top: 50px;
   margin-left: auto;
   margin-right: auto;
   width: 10em;
@@ -221,48 +226,22 @@ hr {
   );
 }
 
-.spotifyProject-card {
-  transform: translateY(25%);
-}
-
-.otherProject-card {
-  transform: translateY(50%);
-}
-
-.spotifyproject-grid {
-  background: #4ca1af; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #c4e0e5,
-    #4ca1af
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #c4e0e5,
-    #4ca1af
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  /*text-align: center; 
-  position: absoulte;
-  height: 100%;*/
-  position: default;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-
 .spotifyplaylist-img {
   height: 400px;
   padding-top: 2.5em;
 }
 
-.spotifyproject-text h1 {
+.project-text {
+  margin-left: 40px;
+}
+
+.project-text h1 {
   font-size: 66px;
   color: white;
   font-family: "poppins", sans-serif;
 }
 
-.spotifyproject-text p {
+.project-text p {
   font-size: 20px;
   color: white;
   padding: 0.5em;
@@ -270,13 +249,13 @@ hr {
   overflow-wrap: break-word;
 }
 
-.spotifyproject-links {
+.project-links {
   display: flex;
   justify-content: space-between;
   width: 25%;
 }
 
-.spotifyproject-links i {
+.project-links i {
   color: white;
   font-size: 3em;
   padding: 8px;
@@ -286,11 +265,16 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
+  height: 150px;
+}
+
+.spotifyproject-btn .button {
+  width: 300px;
+  font-size: 2rem !important;
 }
 
 @media (max-width: 700px) {
-  .spotifyproject-text h1 {
+  .project-text h1 {
     font-size: 40px;
   }
   .aboutme-text p {
@@ -309,4 +293,24 @@ hr {
     padding-bottom: 2em;
     padding-left: 0em;
   }
+}
+
+.aboutme-img {
+  height: 500px;
+  margin-left: 90px;
+}
+
+.pic-grid img {
+  padding: 20px;
+}
+
+.video-wrapper {
+  align-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.videoTag {
+  vertical-align: center;
+  margin: 100px;
 }
