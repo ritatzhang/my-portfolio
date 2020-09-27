@@ -103,7 +103,10 @@ class Landing extends Component {
         </Grid>
 
         <div className="text-wrapper">
-          <p className="text"> thanks for visiting!</p>
+          <p className="text">
+            {" "}
+            thanks for visiting! made with 💜 using react + semantic ui
+          </p>
         </div>
       </div>
     );
