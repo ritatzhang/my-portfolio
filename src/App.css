@@ -117,6 +117,10 @@
   padding-left: 3em;
 }
 
+.aboutme-text {
+  margin-top: 40px;
+}
+
 .aboutme-text p {
   font-size: 24px;
   color: white;
@@ -128,7 +132,7 @@
 
 .aboutme-text h1 {
   /*padding-top: 1em;*/
-  font-size: 66px;
+  font-size: 70px;
   color: white;
   font-family: "poppins", sans-serif;
 }
@@ -298,6 +302,7 @@ hr {
 .aboutme-img {
   height: 500px;
   margin-left: 90px;
+  margin-bottom: 50px;
 }
 
 .pic-grid img {
