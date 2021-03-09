@@ -1,0 +1,329 @@
+.header-color {
+  /*
+  background: #4ca1af; 
+  background: -webkit-linear-gradient(
+    to right,
+    #c4e0e5,
+    #4ca1af
+  ); 
+  background: linear-gradient(
+    to right,
+    #c4e0e5,
+    #4ca1af
+  ); 
+  */
+  background: #b993d6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #8ca6db,
+    #b993d6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #8ca6db,
+    #b993d6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.intro-grid {
+  background: #b993d6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #8ca6db,
+    #b993d6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #8ca6db,
+    #b993d6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /*text-align: center; 
+  position: absoulte;
+  height: 100%;*/
+  padding-top: 5em;
+  position: default;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.mypic-img {
+  height: 350px;
+  padding-top: 2.5em;
+  padding-bottom: 3em;
+  padding-left: 17em;
+}
+
+.first-row {
+  margin-top: 100px;
+}
+
+.intro-grid h1 {
+  font-size: 66px;
+  color: white;
+  /*
+  questrial 
+  didact gothic
+  
+  */
+
+  font-family: "poppins", sans-serif;
+}
+
+.intro-grid p {
+  font-size: 20px;
+  color: white;
+  padding: 0.5em;
+  font-family: "poppins", sans-serif;
+  /*animation: animated-text 3s steps(29, end) 1s 1 normal both;*/
+}
+
+.text-wrapper {
+  text-align: center;
+  max-width: 100%;
+}
+
+.text {
+  font-size: 20px;
+  color: #8ca6db;
+  padding: 0.5em;
+  font-family: "poppins", sans-serif;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
+
+.social-links i {
+  color: white;
+  font-size: 3em;
+  padding: 8px;
+}
+
+.projects .card {
+  min-width: 85%;
+  margin: 50px !important;
+}
+
+.build18pic-img {
+  height: 300px;
+  padding-top: 5em;
+  padding-left: 3em;
+}
+
+.aboutme-text {
+  margin-top: 40px;
+}
+
+.aboutme-text p {
+  font-size: 24px;
+  color: white;
+  /*padding: 3em;*/
+  font-family: "poppins", sans-serif;
+  line-height: 125%;
+  padding-left: 3em;
+}
+
+.aboutme-text h1 {
+  /*padding-top: 1em;*/
+  font-size: 70px;
+  color: white;
+  font-family: "poppins", sans-serif;
+}
+
+.campusLife-header {
+  /*padding-top: 1em;*/
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em;
+  font-size: 40px;
+  color: #2f363d;
+  font-family: "poppins", sans-serif;
+}
+
+.interests-header {
+  /*padding-top: 1em;*/
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10em;
+  font-size: 40px;
+  color: #2f363d;
+  font-family: "poppins", sans-serif;
+}
+
+.hack-h,
+.scabs-h,
+.swim-h {
+  padding-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em;
+  font-size: 30px;
+  color: #4b5866;
+  font-family: "poppins", sans-serif;
+}
+
+.hack-p {
+  font-size: 24px;
+  color: #4b5866;
+  font-family: "poppins", sans-serif;
+  padding-top: 3em;
+}
+.interests {
+  font-size: 24px;
+  color: #4b5866;
+  font-family: "poppins", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50em;
+}
+.scabs-p {
+  font-size: 24px;
+  color: #4b5866;
+  font-family: "poppins", sans-serif;
+  padding-top: 2em;
+  text-align: "right";
+  width: 100%;
+  display: block;
+}
+
+.littlewomen-pic,
+.swim-pic,
+.thacks-pic {
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+small {
+  font-family: "poppins", sans-serif;
+  color: #4b5866;
+  font-style: italic;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  display: block;
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(87, 87, 87, 0.527),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.spotifyplaylist-img {
+  height: 400px;
+  padding-top: 2.5em;
+}
+
+.project-text {
+  margin-left: 40px;
+}
+
+.project-text h1 {
+  font-size: 66px;
+  color: white;
+  font-family: "poppins", sans-serif;
+}
+
+.project-text p {
+  font-size: 20px;
+  color: white;
+  padding: 0.5em;
+  font-family: "poppins", sans-serif;
+  overflow-wrap: break-word;
+}
+
+.project-links {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
+
+.fa {
+  font-family: "FontAwesome" !important;
+}
+
+.project-links i {
+  color: white;
+  font-size: 3em;
+  padding: 8px;
+}
+
+.spotifyproject-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.spotifyproject-btn .button {
+  width: 300px;
+  font-size: 2rem !important;
+}
+
+@media (max-width: 700px) {
+  .project-text h1 {
+    font-size: 40px;
+  }
+  .aboutme-text p {
+    padding-left: 0em;
+  }
+  .banner-text p {
+    font-size: 18px;
+  }
+  .mypic-img,
+  .build18pic-img,
+  .spotifyplaylist-img,
+  .littlewomen-pic,
+  .swim-pic,
+  .thacks-pic {
+    height: 220px;
+    padding-bottom: 2em;
+    padding-left: 0em;
+  }
+}
+
+.aboutme-img {
+  height: 500px;
+  margin-left: 90px;
+  margin-bottom: 50px;
+}
+
+.pic-grid img {
+  padding: 20px;
+}
+
+.video-wrapper {
+  align-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.videoTag {
+  vertical-align: center;
+  margin-top: 100px;
+}
+
+.poster-img {
+  height: 500px;
+  padding-top: 1em;
+  padding-left: 9em;
+  padding-bottom: 2em;
+}
