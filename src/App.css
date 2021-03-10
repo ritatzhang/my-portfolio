@@ -90,17 +90,17 @@
   padding: 0.5em;
   font-family: "poppins", sans-serif;
 }
-
+/*
 .social-links {
   display: flex;
   justify-content: space-between;
   width: 25%;
 }
-
-.social-links i {
+*/
+.social-links a {
   color: white;
   font-size: 3em;
-  padding: 8px;
+  padding: 15px;
 }
 
 .projects .card {
