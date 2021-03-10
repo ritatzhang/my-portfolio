@@ -4,6 +4,7 @@ import gtownpic from "./media/gtownpic.jpg";
 import Typical from "react-typical";
 import holodemo from "./media/A0355.jpg";
 import posterdemo from "./media/posterdemo.gif";
+import { FaGithub, FaSpotify, FaLinkedinIn } from "react-icons/fa";
 // uigradients
 
 class Landing extends Component {
@@ -44,7 +45,7 @@ class Landing extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-github" aria-hidden="true" />
+                  <FaGithub />
                 </a>
 
                 {/* linked in */}
@@ -53,7 +54,7 @@ class Landing extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-linkedin" aria-hidden="true" />
+                  <FaLinkedinIn />
                 </a>
 
                 <a
@@ -61,7 +62,7 @@ class Landing extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-spotify" aria-hidden="true" />
+                  <FaSpotify />
                 </a>
               </div>
             </Grid.Row>
