@@ -1626,7 +1626,7 @@
     "@svgr/plugin-svgo" "^5.5.0"
     "loader-utils" "^2.0.0"
 
-"@testing-library/dom@^6.15.0":
+"@testing-library/dom@^6.15.0", "@testing-library/dom@>=5":
   "integrity" "sha512-lBD88ssxqEfz0wFL6MeUyyWZfV/2cjEZZV3YRpb2IoJRej/4f1jB0TzqIOznTpfR1r34CNesrubxwIlAQ8zgPA=="
   "resolved" "https://registry.npmjs.org/@testing-library/dom/-/dom-6.16.0.tgz"
   "version" "6.16.0"
@@ -2260,7 +2260,7 @@
   "resolved" "https://registry.npmjs.org/ajv-keywords/-/ajv-keywords-3.5.2.tgz"
   "version" "3.5.2"
 
-"ajv@^6.1.0", "ajv@^6.10.0", "ajv@^6.10.2", "ajv@^6.12.3", "ajv@^6.12.4", "ajv@^6.12.5":
+"ajv@^6.1.0", "ajv@^6.10.0", "ajv@^6.10.2", "ajv@^6.12.3", "ajv@^6.12.4", "ajv@^6.12.5", "ajv@^6.9.1", "ajv@>=5.0.0":
   "integrity" "sha512-lRF8RORchjpKG50/WFf8xmg7sgCLFiYNNnqdKflk63whMQcWR5ngGjiSXkL9bjxy6B2npOK2HSMN49jEBMSkag=="
   "resolved" "https://registry.npmjs.org/ajv/-/ajv-6.12.5.tgz"
   "version" "6.12.5"
@@ -3002,16 +3002,6 @@
   dependencies:
     "pako" "~1.0.5"
 
-"browserslist@^4.0.0", "browserslist@^4.12.0", "browserslist@^4.14.5", "browserslist@^4.6.2", "browserslist@^4.6.4":
-  "integrity" "sha512-Z+vsCZIvCBvqLoYkBFTwEYH3v5MCQbsAjp50ERycpOjnPmolg1Gjy4+KaWWpm8QOJt9GHkhdqAl14NpCX73CWA=="
-  "resolved" "https://registry.npmjs.org/browserslist/-/browserslist-4.14.5.tgz"
-  "version" "4.14.5"
-  dependencies:
-    "caniuse-lite" "^1.0.30001135"
-    "electron-to-chromium" "^1.3.571"
-    "escalade" "^3.1.0"
-    "node-releases" "^1.1.61"
-
 "browserslist@^4.16.3":
   "integrity" "sha512-vIyhWmIkULaq04Gt93txdh+j02yX/JzlyhLYbV3YQCn/zvES3JnY7TifHHvvr1w5hTDluNKMkV05cs4vy8Q7sw=="
   "resolved" "https://registry.npmjs.org/browserslist/-/browserslist-4.16.3.tgz"
@@ -3022,6 +3012,16 @@
     "electron-to-chromium" "^1.3.649"
     "escalade" "^3.1.1"
     "node-releases" "^1.1.70"
+
+"browserslist@^4", "browserslist@^4.0.0", "browserslist@^4.12.0", "browserslist@^4.14.5", "browserslist@^4.6.2", "browserslist@^4.6.4":
+  "integrity" "sha512-Z+vsCZIvCBvqLoYkBFTwEYH3v5MCQbsAjp50ERycpOjnPmolg1Gjy4+KaWWpm8QOJt9GHkhdqAl14NpCX73CWA=="
+  "resolved" "https://registry.npmjs.org/browserslist/-/browserslist-4.14.5.tgz"
+  "version" "4.14.5"
+  dependencies:
+    "caniuse-lite" "^1.0.30001135"
+    "electron-to-chromium" "^1.3.571"
+    "escalade" "^3.1.0"
+    "node-releases" "^1.1.61"
 
 "browserslist@4.14.2":
   "integrity" "sha512-HI4lPveGKUR0x2StIz+2FXfDk9SfVMrxn6PLh1JeGUwcuoDkdKZebWiyLRJ68iIPDpMI4JLVDf7S7XzslgWOhw=="
@@ -4730,7 +4730,7 @@
     "micromatch" "^4.0.2"
     "schema-utils" "^3.0.0"
 
-"eslint@*", "eslint@^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0", "eslint@^3 || ^4 || ^5 || ^6 || ^7", "eslint@^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0", "eslint@^5 || ^6 || ^7", "eslint@^5.0.0 || ^6.0.0 || ^7.0.0", "eslint@^7.0.0", "eslint@^7.1.0", "eslint@^7.11.0", "eslint@^7.5.0", "eslint@>=5":
+"eslint@*", "eslint@^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0", "eslint@^3 || ^4 || ^5 || ^6 || ^7", "eslint@^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0", "eslint@^5 || ^6 || ^7", "eslint@^5.0.0 || ^6.0.0 || ^7.0.0", "eslint@^7.0.0", "eslint@^7.1.0", "eslint@^7.11.0", "eslint@^7.5.0", "eslint@>= 4.12.1", "eslint@>=5":
   "integrity" "sha512-W2aJbXpMNofUp0ztQaF40fveSsJBjlSCSWpy//gzfTvwC+USs/nceBrKmlJOiM8r1bLwP2EuYkCqArn/6QTIgg=="
   "resolved" "https://registry.npmjs.org/eslint/-/eslint-7.21.0.tgz"
   "version" "7.21.0"
@@ -7011,6 +7011,8 @@
   "version" "4.0.0"
   dependencies:
     "graceful-fs" "^4.1.6"
+  optionalDependencies:
+    "graceful-fs" "^4.1.6"
 
 "jsonfile@^6.0.1":
   "integrity" "sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ=="
@@ -9144,7 +9146,7 @@
     "kleur" "^3.0.3"
     "sisteransi" "^1.0.5"
 
-"prop-types@^15.6.1", "prop-types@^15.6.2", "prop-types@^15.7.2":
+"prop-types@^15.0.0", "prop-types@^15.5.4", "prop-types@^15.6.1", "prop-types@^15.6.2", "prop-types@^15.7.2":
   "integrity" "sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ=="
   "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.7.2.tgz"
   "version" "15.7.2"
@@ -9350,7 +9352,7 @@
     "strip-ansi" "6.0.0"
     "text-table" "0.2.0"
 
-"react-dom@^16.13.1":
+"react-dom@*", "react-dom@^15.0.0 || ^16.0.0", "react-dom@^16.0.0", "react-dom@^16.13.1", "react-dom@^16.4", "react-dom@^16.8.0":
   "integrity" "sha512-81PIMmVLnCNLO/fFOQxdQkvEq/+Hfpv24XNJfpyZhTRfO0QcmQIF/PgCa1zCOj2w1hrn12MFLyaJ/G0+Mxtfag=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-16.13.1.tgz"
   "version" "16.13.1"
@@ -9364,6 +9366,9 @@
   "integrity" "sha512-nQTTcUu+ATDbrSD1BZHr5kgSD4oF8OFjxun8uAaL8RwPBacGBNPf/yAuVVdx17N8XNzRDMrZ9XcKZHCjPW+9ew=="
   "resolved" "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.9.tgz"
   "version" "6.0.9"
+
+"react-icons@^4.2.0":
+  "version" "4.2.0"
 
 "react-is@^16.12.0", "react-is@^16.6.0", "react-is@^16.6.3", "react-is@^16.7.0", "react-is@^16.8.1", "react-is@^16.8.4", "react-is@^16.8.6":
   "integrity" "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ=="
@@ -9506,7 +9511,7 @@
   dependencies:
     "@camwiegert/typical" "^0.1.1"
 
-"react@^16.13.1", "react@>= 16":
+"react@*", "react@^0.14.0 || ^15.0.0 || ^16.0.0", "react@^15.0.0 || ^16.0.0", "react@^16.0.0", "react@^16.13.1", "react@^16.4", "react@^16.8.0", "react@>= 16", "react@>=15", "react@0.14.x || ^15.0.0 || ^16.0.0":
   "integrity" "sha512-YMZQQq32xHLX0bz5Mnibv1/LHb3Sqzngu7xstSM+vrkE5Kzr9xE0yMByK5kMoTK30YVJE61WfbxIFFvfeDKT1w=="
   "resolved" "https://registry.npmjs.org/react/-/react-16.13.1.tgz"
   "version" "16.13.1"
@@ -11735,7 +11740,7 @@
     "source-list-map" "^2.0.0"
     "source-map" "~0.6.1"
 
-"webpack@^4.0.0", "webpack@^4.0.0 || ^5.0.0", "webpack@^4.27.0 || ^5.0.0", "webpack@^4.36.0 || ^5.0.0", "webpack@^4.4.0 || ^5.0.0", "webpack@>=4.43.0 <6.0.0", "webpack@4.44.2":
+"webpack@^4.0.0", "webpack@^4.0.0 || ^5.0.0", "webpack@^4.27.0 || ^5.0.0", "webpack@^4.36.0 || ^5.0.0", "webpack@^4.4.0 || ^5.0.0", "webpack@>=2", "webpack@>=4.43.0 <6.0.0", "webpack@2 || 3 || 4", "webpack@4.44.2":
   "integrity" "sha512-6KJVGlCxYdISyurpQ0IPTklv+DULv05rs2hseIXer6D7KrUicRDLFb4IUM1S6LUAKypPM/nSiVSuv8jHu1m3/Q=="
   "resolved" "https://registry.npmjs.org/webpack/-/webpack-4.44.2.tgz"
   "version" "4.44.2"
