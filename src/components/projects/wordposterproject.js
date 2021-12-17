@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Grid } from "semantic-ui-react";
 import posterpic from "../media/posterpic.png";
-
+import { FaGithub, FaFile } from "react-icons/fa";
 class WordPosterProject extends Component {
   render() {
     return (
@@ -21,24 +21,27 @@ class WordPosterProject extends Component {
                 adjective and noun are randomly picked from a set of
                 pre-determined adjectives and nouns. to activate a change in the
                 poster, a user makes a loud sound (usually a clap), or stands in
-                front of our webcam, which detects faces. links to our project
-                documentation and code can be found below.
+                front of our webcam, which detects faces.
+              </p>
+              <p>
+                to build this, we used CAD (laser cutting), Adafruit, Neopixels,
+                RaspberryPi, and PythonCV. links to our project documentation
+                and code can be found below.
               </p>
               <div className="project-links">
-                {/* github */}
                 <a
                   href="https://github.com/irisdongg/Build18_2021"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-github" aria-hidden="true" />
+                  <FaGithub />
                 </a>
                 <a
                   href="https://docs.google.com/document/d/15R7kgJNFNTiq9JL7dEuP_pxtN_QB9z6VEj1YKlFb-Tw/edit?usp=sharing"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-file" aria-hidden="true" />
+                  <FaFile />
                 </a>
               </div>
             </div>

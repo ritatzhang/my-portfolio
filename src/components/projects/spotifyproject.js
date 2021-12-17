@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Button } from "semantic-ui-react";
 import spotifyplaylist from "../media/spotifyplaylist.jpg";
+import { FaGithub } from "react-icons/fa";
 
 class SpotifyProject extends Component {
   render() {
@@ -16,33 +17,30 @@ class SpotifyProject extends Component {
                 will connect to you and a friend's spotify accounts to find
                 shared songs and make the playlist. the end result is a
                 collaborative playlist made on the first user's account and
-                followed by the second user's account. i used python, flask, and
-                spotipy, a python library for spotify, to complete this project.
-                all code is documented on github.
+                followed by the second user's account.
+              </p>
+              <p>
+                i used python, flask, and spotipy, a python library for spotify,
+                to complete this project. all code is documented on github.
               </p>
               <div className="project-links">
-                {/* github */}
                 <a
                   href="https://github.com/ritatzhang/spotify-playlist-maker"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-github" aria-hidden="true" />
+                  <FaGithub />
                 </a>
               </div>
             </div>
           </Grid.Column>
 
           <Grid.Column>
-            <img
-              src={spotifyplaylist}
-              alt="mypic"
-              className="spotifyplaylist-img"
-            />
+            <img src={spotifyplaylist} alt="mypic" className="demo-img" />
           </Grid.Column>
         </Grid>
 
-        <div class="spotifyproject-btn">
+        <div class="demo-btn">
           <a
             href="http://spotify-ultimate-playlist.herokuapp.com/"
             rel="noopener noreferrer"

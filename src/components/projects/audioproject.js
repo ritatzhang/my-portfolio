@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Grid } from "semantic-ui-react";
 import build18 from "../media/build18.jpg";
 import demo from "../media/visualizer.mp4";
+import { FaYoutube } from "react-icons/fa";
 
 class HoloAudioProject extends Component {
   state = {};
@@ -15,28 +16,29 @@ class HoloAudioProject extends Component {
               <p>
                 for Build18, a hardware hackathon at CMU, my team and I followed
                 a Youtube tutorial (linked below) to create a pseudo-hologram.
-                we used an LCD monitor and acrylic sheets for the hologram and
-                PVC and wood to create a stand for everything. we used CAD to
-                cut the acrylic and PVC, and a 3d printer to print fulstrums.
                 although we didn't win any awards, we had successfully completed
                 our project by the end of the build week and accomplished a
                 super cool visual effect!
               </p>
+              <p>
+                we used an LCD monitor and acrylic sheets for the hologram and
+                PVC and wood to create a stand for everything. we used CAD to
+                cut the acrylic and PVC, and a 3d printer to print fulstrums.
+              </p>
               <div className="project-links">
-                {/* github */}
                 <a
                   href="https://www.youtube.com/watch?v=MrgGXQvAuR4&list=PL09MLL4-PyyaBruQVgzeJw_spyOt0q2eh&index=15"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-youtube" aria-hidden="true" />
+                  <FaYoutube />
                 </a>
               </div>
             </div>
           </Grid.Column>
 
           <Grid.Column>
-            <img src={build18} alt="mypic" className="spotifyplaylist-img" />
+            <img src={build18} alt="mypic" className="demo-img" />
           </Grid.Column>
         </Grid>
 

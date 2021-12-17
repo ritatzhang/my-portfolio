@@ -21,15 +21,31 @@ class About extends Component {
             <div className="aboutme-text">
               <h1>Hi, I'm Rita.</h1>
               <p>
-                I am currently pursuing a bachelor's degree at Carnegie Mellon
-                University with a projected graduation date of May 2022.
                 Sometimes, I think of ideas that I think would be cool, and then
                 I try to code it. This is the culmination of my efforts. Not
                 everything is perfect but I try my best! I am the human
                 equivalent of the "I think I can" train. Feel free to reach out
                 to me with any questions or tips!
               </p>
-              <p>ritaz@andrew.cmu.edu</p>
+              <h2>Education</h2>
+              <p>
+                I am currently pursuing a bachelor's degree at Carnegie Mellon
+                University. I am majoring in Electrical and Computer Engineering
+                with a minor in Business Administration. I will graduate in the
+                Spring of 2023.
+              </p>
+              <h2> Work </h2>
+              <p>
+                I have completed software engineering interships at JPMorgan and
+                Chase and a student start-up formerly called SimpL, now called
+                EZ-PT. I have also been a teaching assistant for 15-122
+                Introduction to Imperative Programming and 18-213 Introduction
+                to Computer Systems. From all of my experiences, my key
+                takeaways are learning how to take intiative, plan for success,
+                and have empathy for others.
+              </p>
+              <h2> Contact </h2>
+              <p>ritaz [at] andrew [dot] cmu [dot] edu</p>
             </div>
           </Grid.Column>
         </Grid>
