@@ -26,4 +26,5 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 # How to add new projects
-check out src --> projects. add a projects javascript file, then link that file in projects.js
+- check out src --> projects. add a projects javascript file, then link that file in projects.js
+- also add file as route in App.js
