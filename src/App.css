@@ -73,13 +73,15 @@
 }
 
 .text-wrapper {
+  margin: auto;
   text-align: center;
-  max-width: 100%;
+  max-width: 70%;
 }
 
 .text {
   font-size: 15px;
   color: lightslategray;
+  /* color: black; */
   padding: 0.5em;
   font-family: "Red Hat Text", sans-serif;
 }
@@ -313,7 +315,8 @@ hr {
 }
 
 .poster-img {
-  height: 500px;
+  max-width: 800px;
+  max-height: 500px;
   padding-top: 1em;
   padding-left: 9em;
   padding-bottom: 2em;

@@ -7,6 +7,8 @@ import SpotifyProject from "./projects/spotifyproject";
 import HoloAudioProject from "./projects/audioproject";
 import WordPosterProject from "./projects/wordposterproject";
 import BookProject from "./projects/luckycopper";
+import ToyCarProject from "./projects/toycarproject";
+
 const Main = () => (
   <Switch>
     <Route exact path="/" component={LandingPage} />
@@ -16,6 +18,7 @@ const Main = () => (
     <Route exact path="/holoproject" component={HoloAudioProject} />
     <Route exact path="/wordposterproject" component={WordPosterProject} />
     <Route exact path="/bookblog" component={BookProject} />
+    <Route exact path="/toycar" component={ToyCarProject} />
   </Switch>
 );
 

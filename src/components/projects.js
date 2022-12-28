@@ -5,6 +5,14 @@ import posterdemo from "./media/posterdemo.gif";
 
 const project_info = [
   {
+    link: "/toycar",
+    img_src: "https://m.media-amazon.com/images/I/611OOI4uQhL._AC_SL1200_.jpg",
+    header: "self driving toy car",
+    date: "january 2022",
+    description:
+      "added self-driving capabilities to an electric children's car",
+  },
+  {
     link: "/bookblog",
     img_src:
       "https://cdn.booktrust.org.uk/globalassets/images/illustrations/nadia-shireen-2-3/nadia-shireen-best-new-books-16x9.png?w=1200&h=675&quality=70&anchor=middlecenter",
